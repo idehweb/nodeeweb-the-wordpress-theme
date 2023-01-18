@@ -1,0 +1,152 @@
+/*
+Theme Name:     Nodeeweb
+Theme URI:
+Author:         Hamid Alinia - Idehweb
+Author URI:     https://idehweb.com
+Description:    Nodeeweb is a modern WordPress theme for professionals. It fits creative business, small businesses (restaurants, wedding planners, sport/medical shops), startups, corporate businesses, online agencies and firms, portfolios, ecommerce (WooCommerce), and freelancers. It has a multipurpose one-page design, widgetized footer, blog/news page and a clean look, is compatible with: Flat Parallax Slider, Photo Gallery, Travel Map and Elementor Page Builder . The theme is responsive, WPML, Retina ready, SEO friendly, and uses Material Kit for design.
+Version:        0.0.112
+License:        GNU General Public License v2 or later
+License URI:    http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:    nodeeweb
+WordPress Available:  yes
+Requires License:    no
+Requires at least: 6.1
+Tested up to: 6.1
+Requires PHP: 5.6
+Tags: blog, custom-logo, portfolio, e-commerce, rtl-language-support, post-formats, grid-layout, one-column, two-columns, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, flexible-header, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, editor-style, footer-widgets, left-sidebar, right-sidebar, wide-blocks
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+:root .wp-block-file__button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.wp-block-post-date.has-medium-font-size time {
+	white-space: nowrap;
+}
+
+.wp-block-post-date a,
+.wp-block-site-title a,
+.wp-block-post-title a {
+	text-decoration: none;
+}
+
+.wp-block-post-date a:hover,
+.wp-block-site-title a:hover,
+.wp-block-post-title a:hover,
+.wp-block-post-date a:focus,
+.wp-block-site-title a:focus,
+.wp-block-post-title a:focus {
+	opacity: 0.8;
+}
+
+.blocks-gallery-caption {
+	color: inherit;
+}
+
+.wp-block-image figcaption {
+	color: inherit;
+}
+
+/*
+ * Nodeeweb block styles.
+ */
+
+.wp-block-separator.is-style-star-line {
+	max-width: min(100%, 50vw) !important;
+	-webkit-mask-size: 100%;
+	mask-size: 100%;
+	-webkit-mask-repeat: no-repeat;
+	mask-repeat: no-repeat;
+}
+
+.wp-block-separator.is-style-double-line {
+	max-width: min(100%, 75vw) !important;
+	-webkit-mask-size: 100%;
+	mask-size: 100%;
+	-webkit-mask-repeat: no-repeat;
+	mask-repeat: no-repeat;
+}
+
+.wp-block-separator.is-style-double-line-inverted {
+	max-width: min(100%, 75vw) !important;
+	-webkit-mask-size: 100%;
+	mask-size: 100%;
+	-webkit-mask-repeat: no-repeat;
+	mask-repeat: no-repeat;
+}
+
+.wp-block-separator.is-style-line-left {
+	max-width: min(100%, 75vw) !important;
+	-webkit-mask-size: 100%;
+	mask-size: 100%;
+	-webkit-mask-repeat: no-repeat;
+	mask-repeat: no-repeat;
+}
+
+.wp-block-separator.is-style-line-right {
+	max-width: min(100%, 75vw) !important;
+	-webkit-mask-size: 100%;
+	mask-size: 100%;
+	-webkit-mask-repeat: no-repeat;
+	mask-repeat: no-repeat;
+}
+
+.wp-block-separator.is-style-narrow-line {
+	max-width: 100% !important;
+	-webkit-mask-size: 100%;
+	mask-size: 100%;
+	-webkit-mask-repeat: no-repeat;
+	mask-repeat: no-repeat;
+}
+
+.wp-block-separator.is-style-cutout-circle-up {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	-webkit-mask-repeat: no-repeat;
+	mask-repeat: no-repeat;
+	-webkit-mask-position: top;
+	mask-position: top;
+	position: relative;
+	top: -1px;
+}
+
+.wp-block-separator.is-style-cutout-circle-down {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	-webkit-mask-size: 100%;
+	mask-size: 100%;
+	-webkit-mask-repeat: no-repeat;
+	mask-repeat: no-repeat;
+	-webkit-mask-position: bottom;
+	mask-position: bottom;
+	position: relative;
+	bottom: -1px;
+}
+
+.wp-block-separator.is-style-diamond {
+	width: 25px !important;
+	height: 25px !important;
+	border: none !important;
+	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+:where( .wp-block-separator.is-style-star-line ),
+:where( .wp-block-separator.is-style-double-line ),
+:where( .wp-block-separator.is-style-double-line-inverted ),
+:where( .wp-block-separator.is-style-line-left ),
+:where( .wp-block-separator.is-style-line-right ),
+:where( .wp-block-separator.is-style-narrow-line ),
+:where( .wp-block-separator.is-style-cutout-circle-up ),
+:where( .wp-block-separator.is-style-cutout-circle-down ),
+:where( .wp-block-separator.is-style-diamond ) {
+	background: currentColor;
+}

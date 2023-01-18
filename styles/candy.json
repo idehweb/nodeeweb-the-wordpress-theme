@@ -1,0 +1,35 @@
+{
+	"version": 2,
+	"title": "Candy",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "foreground",
+					"color": "#000000",
+					"name": "Foreground"
+				},
+				{
+					"slug": "background",
+					"color": "#fcebf1",
+					"name": "Background"
+				},
+				{
+					"slug": "primary",
+					"color": "#bb134e",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#ffbfd6",
+					"name": "Secondary"
+				},
+				{
+					"slug": "tertiary",
+					"color": "#f2dae3",
+					"name": "Tertiary"
+				}
+			]
+		}
+	}
+}

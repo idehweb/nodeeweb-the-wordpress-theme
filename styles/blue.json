@@ -1,0 +1,35 @@
+{
+	"version": 2,
+	"title": "Blue",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "foreground",
+					"color": "#000000",
+					"name": "Foreground"
+				},
+				{
+					"slug": "background",
+					"color": "#ffffff",
+					"name": "Background"
+				},
+				{
+					"slug": "primary",
+					"color": "#677481",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#e5f2ff",
+					"name": "Secondary"
+				},
+				{
+					"slug": "tertiary",
+					"color": "#f6f6f6",
+					"name": "Tertiary"
+				}
+			]
+		}
+	}
+}
