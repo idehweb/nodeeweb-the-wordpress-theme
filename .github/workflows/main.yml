@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: WordPress Plugin Deploy
-      uses: idehweb/action-wordpress-theme-deploy@master
+      uses: idehweb/action-wordpress-theme-deploy@main
       env:
         SVN_PASSWORD: ${{secrets.SVN_PASSWORD}}
         SVN_USERNAME: ${{secrets.SVN_USERNAME}}
