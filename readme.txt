@@ -4,7 +4,7 @@ Tags: blog, custom-logo, portfolio, e-commerce, rtl-language-support, post-forma
 Requires at least: 6.1
 Tested up to: 6.1
 Requires PHP: 5.6
-Stable tag: 0.0.112
+Stable tag: 0.0.113
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Author URI: https://idehweb.com
