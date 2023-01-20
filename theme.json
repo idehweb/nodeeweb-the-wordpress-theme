@@ -77,7 +77,80 @@
 					"fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
 					"name": "System Font",
 					"slug": "system-font"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "IranSans",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400 500",
+							"src": [
+								"file:./assets/fonts/ttf/IRANSansWeb.ttf"
+							]
+						},
+						{
+							"fontFamily": "IranSans",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "400 500",
+							"src": [
+								"file:./assets/fonts/ttf/IRANSansWeb.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"IranSans\", serif",
+					"name": "IranSans",
+					"slug": "iransans"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Dinar",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400 500",
+							"src": [
+								"file:./assets/fonts/ttf/dinar.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"dinar\", serif",
+					"name": "Dinar",
+					"slug": "dinar"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Byekan",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400 500",
+							"src": [
+								"file:./assets/fonts/ttf/BYekan.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"Byekan\", serif",
+					"name": "Byekan",
+					"slug": "byekan"
+				},{
+					"fontFace": [
+						{
+							"fontFamily": "BBCNassim",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400 500",
+							"src": [
+								"file:./assets/fonts/woff/BBCNassim.woff"
+							]
+						}
+					],
+					"fontFamily": "\"BBCNassim\", serif",
+					"name": "BBCNassim",
+					"slug": "bbcnassim"
 				}
+
 			],
 			"fontSizes": [
 				{
@@ -111,7 +184,7 @@
 					"text": "var(--wp--preset--color--background)"
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--system-font)",
+					"fontFamily": "var(--wp--preset--font-family--iransans)",
 					"fontSize": "var(--wp--preset--font-size--medium)",
 					"fontWeight": "normal"
 				}
@@ -128,7 +201,7 @@
 			},
 			"core/post-title": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--system-font)",
+					"fontFamily": "var(--wp--preset--font-family--iransans)",
 					"fontSize": "var(--wp--preset--font-size--x-large)",
 					"fontWeight": "500",
 					"lineHeight": "var(--wp--custom--typography--line-height--small)"
@@ -141,7 +214,7 @@
 			},
 			"core/query-title": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--system-font)",
+					"fontFamily": "var(--wp--preset--font-family--iransans)",
 					"fontSize": "var:preset|font-size|x-large",
 					"fontWeight": "300",
 					"lineHeight": "var(--wp--custom--typography--line-height--small)"
@@ -154,13 +227,13 @@
 			},
 			"core/search": {
 				"typography": {
-					"fontFamily": "var:preset|font-family",
+					"fontFamily": "var:preset|font-family|iransans",
 					"fontSize": "var:preset|font-size|medium"
 				}
 			},
 			"core/site-title": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--system-font)",
+					"fontFamily": "var(--wp--preset--font-family--iransans)",
 					"fontSize": "var(--wp--preset--font-size--medium)",
 					"fontWeight": "normal",
 					"lineHeight": "var(--wp--custom--typography--line-height--normal)"
@@ -181,14 +254,14 @@
 					"text": "var(--wp--preset--color--background)"
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--system-font)",
+					"fontFamily": "var(--wp--preset--font-family--iransans)",
 					"fontSize": "var(--wp--preset--font-size--medium)",
 					"fontWeight": "normal"
 				}
 			},
 			"h1": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--system-font)",
+					"fontFamily": "var(--wp--preset--font-family--iransans)",
 					"fontSize": "var(--wp--preset--font-size--x-large)",
 					"fontWeight": "500",
 					"lineHeight": "var(--wp--custom--typography--line-height--tiny)"
@@ -196,7 +269,7 @@
 			},
 			"h2": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--system-font)",
+					"fontFamily": "var(--wp--preset--font-family--iransans)",
 					"fontSize": "var(--wp--preset--font-size--x-large)",
 					"fontWeight": "500",
 					"lineHeight": "var(--wp--custom--typography--line-height--small)"
@@ -204,7 +277,7 @@
 			},
 			"h3": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--system-font)",
+					"fontFamily": "var(--wp--preset--font-family--iransans)",
 					"fontSize": "var(--wp--preset--font-size--x-large)",
 					"fontWeight": "500",
 					"lineHeight": "var(--wp--custom--typography--line-height--tiny)"
@@ -212,7 +285,7 @@
 			},
 			"h4": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--system-font)",
+					"fontFamily": "var(--wp--preset--font-family--iransans)",
 					"fontSize": "var(--wp--preset--font-size--x-large)",
 					"fontWeight": "500",
 					"lineHeight": "var(--wp--custom--typography--line-height--tiny)"
@@ -220,7 +293,7 @@
 			},
 			"h5": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--system-font)",
+					"fontFamily": "var(--wp--preset--font-family--iransans)",
 					"fontSize": "var(--wp--preset--font-size--medium)",
 					"fontWeight": "500",
 					"lineHeight": "var(--wp--custom--typography--line-height--normal)",
@@ -229,7 +302,7 @@
 			},
 			"h6": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--system-font)",
+					"fontFamily": "var(--wp--preset--font-family--iransans)",
 					"fontSize": "var(--wp--preset--font-size--medium)",
 					"fontWeight": "500",
 					"lineHeight": "var(--wp--custom--typography--line-height--normal)",
@@ -252,7 +325,7 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--system-font)",
+			"fontFamily": "var(--wp--preset--font-family--iransans)",
 			"fontSize": "var(--wp--preset--font-size--medium)",
 			"lineHeight": "var(--wp--custom--typography--line-height--normal)"
 		}

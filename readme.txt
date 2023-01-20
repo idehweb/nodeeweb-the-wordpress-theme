@@ -28,6 +28,13 @@ Nodeeweb is wordpress theme which is trying to cover useful tools for free. We t
 
 == Changelog ==
 
+= 0.0.113 =
+    added fonts for persian or arabic languages:
+    * Iransans
+    * Dinar
+    * BYekan
+    * nasim
+
 = 0.0.112 =
     make Theme URI empty
 
