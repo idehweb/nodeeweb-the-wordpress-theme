@@ -1,10 +1,10 @@
 === Nodeeweb ===
 Contributors: glboy
 Tags: blog, custom-logo, portfolio, e-commerce, rtl-language-support, post-formats, grid-layout, one-column, two-columns, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, flexible-header, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, editor-style, footer-widgets, left-sidebar, right-sidebar, wide-blocks
-Requires at least: 6.1
-Tested up to: 6.1
+Requires at least: 6.3
+Tested up to: 6.3
 Requires PHP: 5.6
-Stable tag: 0.0.113
+Stable tag: 0.0.114
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Author URI: https://idehweb.com

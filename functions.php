@@ -38,7 +38,9 @@ if ( ! function_exists( 'nodeeweb_styles' ) ) {
 			$version_string
 		);
 		wp_enqueue_style( 'nodeeweb-style' );
-	}
+        wp_enqueue_script('custom-script-menu', get_template_directory_uri() . '/script/main.js', array('jquery'), true, true);
+
+    }
 }
 
 add_action( 'wp_enqueue_scripts', 'nodeeweb_styles' );
