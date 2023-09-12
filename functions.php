@@ -23,6 +23,22 @@ if ( ! function_exists( 'nodeeweb_support' ) ) {
 
 add_action( 'after_setup_theme', 'nodeeweb_support' );
 
+if ( ! function_exists( 'nodeeweb_admin_enqueue_scripts' ) ) {
+	/**
+	 * Add admin scripts
+	 * @version 0.0.1
+	 */
+	function nodeeweb_admin_enqueue_scripts($hook) {
+//        if ('site-editor.php' !== $hook) {
+//            return;
+//        }
+//        print_r($hook);
+        wp_enqueue_script('nodeeweb_custom_script', get_template_directory_uri() . '/script/admin.js');
+	}
+}
+
+add_action( 'admin_enqueue_scripts', 'nodeeweb_admin_enqueue_scripts' );
+
 if ( ! function_exists( 'nodeeweb_styles' ) ) {
 	/**
 	 * Enqueue styles.

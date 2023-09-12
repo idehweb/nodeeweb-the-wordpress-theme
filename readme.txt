@@ -1,18 +1,18 @@
 === Nodeeweb ===
 Contributors: glboy
-Tags: blog, custom-logo, portfolio, e-commerce, rtl-language-support, post-formats, grid-layout, one-column, two-columns, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, flexible-header, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, editor-style, footer-widgets, left-sidebar, right-sidebar, wide-blocks
+Tags: Blog, Custom Background, Custom Colors, Custom Header, Custom Logo, Custom Menu, E-Commerce, Editor Style, Featured Image Header, Featured Images, Flexible Header, Footer Widgets, Full Width Template, Grid Layout, Left Sidebar, One Column, Portfolio, Post Formats, Right Sidebar, RTL Language Support, Sticky Post, Theme Options, Threaded Comments, Translation Ready, Two Columns, Wide Blocks
 Requires at least: 6.3
 Tested up to: 6.3
 Requires PHP: 5.6
-Stable tag: 0.0.114
+Stable tag: 0.0.123
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
-Author URI: https://idehweb.com
-Nodeeweb fits all business, startups, corporate businesses, online companies, portfolios, e-commerce (WooCommerce), and freelancers.
+Author URI: https://idehweb.com/product/nodeeweb-wordpress-theme/
+Nodeeweb is a modern WordPress theme. You can use Gutenberg and built-in patterns to quickly build the site. we have developed some templates and patterns.
 
 == Description ==
 
-Nodeeweb is wordpress theme which is trying to cover useful tools for free. We try to provide you standard tools for your website, that you won't need to install more plugins. we are trying to make your admin area tidy and clean.
+Nodeeweb is a modern WordPress theme. You can use Gutenberg and built-in patterns to quickly build the site. we have developed some templates and patterns.
 
 
 
@@ -27,6 +27,9 @@ Nodeeweb is wordpress theme which is trying to cover useful tools for free. We t
 
 
 == Changelog ==
+
+= 0.0.123 =
+    * add support chat
 
 = 0.0.113 =
     added fonts for persian or arabic languages:
