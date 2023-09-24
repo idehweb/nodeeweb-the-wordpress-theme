@@ -4,7 +4,7 @@ Tags: Blog, Custom Background, Custom Colors, Custom Header, Custom Logo, Custom
 Requires at least: 6.3
 Tested up to: 6.3
 Requires PHP: 5.6
-Stable tag: 0.0.123
+Stable tag: 0.1.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Author URI: https://idehweb.com/product/nodeeweb-wordpress-theme/
@@ -12,7 +12,12 @@ Nodeeweb is a modern WordPress theme. You can use Gutenberg and built-in pattern
 
 == Description ==
 
-Nodeeweb is a modern WordPress theme. You can use Gutenberg and built-in patterns to quickly build the site. we have developed some templates and patterns.
+Nodeeweb is a modern WordPress theme.
+You can use Gutenberg and built-in patterns to quickly build the site.
+We have developed some templates and patterns for you.
+
+For checking docs and getting more help please visit:
+[Nodeeweb WordPress Theme](https://idehweb.com/product/nodeeweb-wordpress-theme/ "Nodeeweb WordPress Theme")
 
 
 
@@ -27,6 +32,10 @@ Nodeeweb is a modern WordPress theme. You can use Gutenberg and built-in pattern
 
 
 == Changelog ==
+
+= 0.1.0 =
+    * add components structure
+    *
 
 = 0.0.123 =
     * add support chat
