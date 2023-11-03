@@ -4,7 +4,7 @@ Tags: Blog, Custom Background, Custom Colors, Custom Header, Custom Logo, Custom
 Requires at least: 6.3
 Tested up to: 6.3
 Requires PHP: 5.6
-Stable tag: 0.1.0
+Stable tag: 0.1.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Author URI: https://idehweb.com/product/nodeeweb-wordpress-theme/
@@ -33,9 +33,12 @@ For checking docs and getting more help please visit:
 
 == Changelog ==
 
+= 0.1.1 =
+    * enable customization
+    * Favicon feature
+
 = 0.1.0 =
     * add components structure
-    *
 
 = 0.0.123 =
     * add support chat

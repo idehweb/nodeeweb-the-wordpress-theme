@@ -60,5 +60,48 @@ if ( ! function_exists( 'nodeeweb_styles' ) ) {
 }
 
 add_action( 'wp_enqueue_scripts', 'nodeeweb_styles' );
+
+
+function nodeeweb_customizer_enqueues() {
+    wp_enqueue_script( 'nodeeweb-exntender-scripts',
+        plugins_url( '/js/custom.customize.js', dirname( __FILE__ ) ),
+        array( 'jquery', 'customize-controls' ),
+        false,
+        true );
+}
+
+add_action( 'customize_controls_enqueue_scripts', 'nodeeweb_customizer_enqueues' );
+
+
 require_once get_template_directory() . '/block/styles.php';
 require_once get_template_directory() . '/block/patterns.php';
+require_once get_template_directory() . '/includes/autoloader.php';
+
+$customizer = new NodeewebExtender\Customizer();
+$extender   = new NodeewebExtender\Extender();
+
+// Disable new WooCommerce product template (from Version 7.7.0)
+function nodeeweb_restored_reset_product_template($post_type_args) {
+    if (array_key_exists('template', $post_type_args)) {
+        unset($post_type_args['template']);
+    }
+    return $post_type_args;
+}
+add_filter('woocommerce_register_post_type_product', 'nodeeweb_restored_reset_product_template');
+
+// Enable Gutenberg editor for WooCommerce
+function nodeeweb_restored_activate_gutenberg_product($can_edit, $post_type) {
+    if ($post_type == 'product') {
+        $can_edit = true;
+    }
+    return $can_edit;
+}
+add_filter('use_block_editor_for_post_type', 'nodeeweb_restored_activate_gutenberg_product', 10, 2);
+
+// Enable taxonomy fields for woocommerce with gutenberg on
+function nodeeweb_restored_enable_taxonomy_rest($args) {
+    $args['show_in_rest'] = true;
+    return $args;
+}
+add_filter('woocommerce_taxonomy_args_product_cat', 'nodeeweb_restored_enable_taxonomy_rest');
+add_filter('woocommerce_taxonomy_args_product_tag', 'nodeeweb_restored_enable_taxonomy_rest');;
