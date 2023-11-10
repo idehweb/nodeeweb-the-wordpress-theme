@@ -1,0 +1,25 @@
+{
+  "apiVersion": 2,
+  "name": "gutsliders/photo-carousel",
+  "version": "0.1.0",
+  "title": "Photo Carousel",
+  "category": "slider-blocks",
+  "description": "Show photos in carousel mode.",
+  "supports": {
+    "html": false,
+    "anchor": true,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "example": {
+    "attributes": {
+      "name": "Photo Carousel"
+    }
+  },
+  "textdomain": "slider-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

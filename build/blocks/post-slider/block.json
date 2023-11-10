@@ -1,0 +1,26 @@
+{
+  "apiVersion": 2,
+  "name": "gutsliders/post-slider",
+  "version": "0.1.0",
+  "title": "Post Slider",
+  "category": "slider-blocks",
+  "description": "Show blog posts in sliding mode.",
+  "supports": {
+    "html": false,
+    "anchor": true,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "example": {
+    "attributes": {
+      "name": "Fixed Content Slider"
+    }
+  },
+  "textdomain": "slider-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

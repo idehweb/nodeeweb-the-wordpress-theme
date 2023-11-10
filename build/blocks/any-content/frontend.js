@@ -1,0 +1,1 @@
+window.addEventListener("DOMContentLoaded",(()=>{const e=document.querySelectorAll(".wp-block-gutsliders-any-content");e.length>0&&e.forEach((e=>{const t=e.querySelector(".swiper"),n=e.dataset.swiperOptions,o=JSON.parse(n);new Swiper(t,o)}))}));

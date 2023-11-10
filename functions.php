@@ -15,7 +15,15 @@ if ( ! function_exists( 'nodeeweb_support' ) ) {
 	 * @version 0.0.1
 	 */
 	function nodeeweb_support() {
-		add_theme_support( 'wp-block-styles' );
+        define( 'GUTSLIDER_VERSION', '0.1.2' );
+
+        define( 'GUTSLIDER_URL', get_template_directory_uri() );
+        define('GUTSLIDER_DIR_PATH', get_template_directory());
+        define( 'GUTSLIDER_DIR', get_template_directory() );
+        require_once trailingslashit( GUTSLIDER_DIR ) . '/includes/init.php';
+        require_once get_template_directory() . '/admin/admin.php';
+
+        add_theme_support( 'wp-block-styles' );
 		add_editor_style( 'style.css' );
 		load_theme_textdomain( 'nodeeweb', get_template_directory() . '/languages' );
 	}

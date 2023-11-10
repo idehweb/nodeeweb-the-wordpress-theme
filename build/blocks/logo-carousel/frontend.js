@@ -1,0 +1,1 @@
+window.addEventListener("DOMContentLoaded",(()=>{const e=document.querySelectorAll(".wp-block-gutsliders-logo-carousel");e.length>0&&e.forEach((e=>{const o=e.querySelector(".swiper"),t=e.dataset.swiperOptions,r=JSON.parse(t);new Swiper(o,r)}))}));
